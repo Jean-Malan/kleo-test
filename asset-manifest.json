@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kleo-test/static/css/main.03968fab.css",
-    "main.js": "/kleo-test/static/js/main.84b8e137.js",
+    "main.css": "/kleo-test/static/css/main.06a21e92.css",
+    "main.js": "/kleo-test/static/js/main.a99a8d3e.js",
     "index.html": "/kleo-test/index.html",
-    "main.03968fab.css.map": "/kleo-test/static/css/main.03968fab.css.map",
-    "main.84b8e137.js.map": "/kleo-test/static/js/main.84b8e137.js.map"
+    "main.06a21e92.css.map": "/kleo-test/static/css/main.06a21e92.css.map",
+    "main.a99a8d3e.js.map": "/kleo-test/static/js/main.a99a8d3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.03968fab.css",
-    "static/js/main.84b8e137.js"
+    "static/css/main.06a21e92.css",
+    "static/js/main.a99a8d3e.js"
   ]
 }
