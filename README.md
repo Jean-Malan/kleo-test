@@ -63,15 +63,10 @@ Navigate through the maze and reach the green exit point.
    cd kleo-test
 
 2. **Install dependencies:**
-
-npm install
-# or
-yarn install
+    npm install
 
 3. **Run the app:**
-npm start
-# or
-yarn start
+    npm start
 
 ### Licensing
 
