@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Maze Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Maze Game! This is a simple yet engaging game where your goal is to navigate through a maze and reach the exit. The game is built using React and TypeScript and can be played directly in the browser.
 
-## Available Scripts
+## Table of Contents
+- [About the Game](#about-the-game)
+- [How to Play](#how-to-play)
+- [Features](#features)
+- [Setup and Installation](#setup-and-installation)
+- [Deployment](#deployment)
+- [License](#license)
 
-In the project directory, you can run:
+## About the Game
 
-### `npm start`
+The Maze Game is a single-page application built with React and TypeScript. The game features a 3D-like view of a 2D maze, enhancing the visual appeal and providing an engaging experience. Players can navigate through the maze, avoid walls, and aim to reach the exit point.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How to Play
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Objective
+Navigate through the maze and reach the green exit point.
 
-### `npm test`
+### Controls
+- **Arrow Keys**: Rotate your view
+  - **Left Arrow**: Turn left
+  - **Right Arrow**: Turn right
+- **Spacebar**: Move forward in the direction you're facing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Walls
+- The walls are black and block your path.
+- You cannot move through walls. Plan your moves to avoid hitting them.
+- Use the 3D view to see a few steps ahead and identify any walls in your path.
+- The 2D view provides a top-down layout of the entire maze, which can be accessed by clicking the "Stuck? View the 2D view for a hint" button.
 
-### `npm run build`
+### Winning the Game
+- Reach the green exit point to win the game.
+- Your moves and direction will be displayed on the screen.
+- You can reset the game anytime by clicking the "Try Again" button.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Tips
+- Use the 2D view sparingly for a more challenging experience.
+- Plan your moves by observing the walls in the 3D view.
+- Keep track of your moves to try and beat your high score.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
+- **3D View**: A visually appealing 3D-like view of the 2D maze.
+- **2D View**: A top-down view of the maze for hints.
+- **Dynamic Controls**: Use arrow keys to rotate and spacebar to move.
+- **Responsive Design**: The game is responsive and works on both desktop and mobile browsers.
+- **Game State**: Keeps track of moves and game progress.
+- **Reset Option**: Easily reset the game and start over.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Setup and Installation
 
-### `npm run eject`
+### Prerequisites
+- Node.js (>=14.x.x)
+- npm (>=6.x.x) or yarn (>=1.x.x)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/kleo-test.git
+   cd kleo-test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install
+# or
+yarn install
 
-## Learn More
+3. **Run the app:**
+npm start
+# or
+yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Licensing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This README provides a detailed overview of the app, instructions on how to play, and steps for setup, installation, and deployment. It also includes sections for contributing and licensing. Adjust the placeholder links and information as necessary for your specific project.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
