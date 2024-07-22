@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kleo-test/static/css/main.03968fab.css",
+    "main.js": "/kleo-test/static/js/main.84b8e137.js",
+    "index.html": "/kleo-test/index.html",
+    "main.03968fab.css.map": "/kleo-test/static/css/main.03968fab.css.map",
+    "main.84b8e137.js.map": "/kleo-test/static/js/main.84b8e137.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03968fab.css",
+    "static/js/main.84b8e137.js"
+  ]
+}
