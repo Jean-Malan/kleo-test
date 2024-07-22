@@ -1,0 +1,120 @@
+.mazeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.viewsContainer {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.maze3dView {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.corridorSegment {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.wall {
+  position: absolute;
+  background-image: linear-gradient(45deg, #333 25%, #3a3a3a 25%, #3a3a3a 50%, #333 50%, #333 75%, #3a3a3a 75%, #3a3a3a 100%);
+  background-size: 20px 20px;
+  border: 1px solid #444;
+}
+
+.leftWall, .rightWall {
+  width: 300px;
+  height: 300px;
+  top: 0;
+}
+
+.leftWall {
+  transform: rotateY(90deg) translateZ(-150px);
+}
+
+.rightWall {
+  transform: rotateY(-90deg) translateZ(-150px);
+}
+
+.frontWall {
+  width: 300px;
+  height: 300px;
+  transform: translateZ(-150px);
+}
+
+.floor, .ceiling {
+  width: 300px;
+  height: 300px;
+  transform: rotateX(90deg);
+}
+
+.floor {
+  background-image: repeating-linear-gradient(0deg, #222 0px, #222 1px, #2a2a2a 1px, #2a2a2a 10px);
+  transform-origin: bottom;
+}
+
+.ceiling {
+  background-image: radial-gradient(circle, #1a1a1a 0%, #111 100%);
+  transform-origin: top;
+}
+
+.depth0 { transform: translateZ(-50px) scale(0.8333); }
+.depth1 { transform: translateZ(-150px) scale(0.6666); }
+.depth2 { transform: translateZ(-250px) scale(0.5); }
+.depth3 { transform: translateZ(-350px) scale(0.3333); }
+.depth4 { transform: translateZ(-450px) scale(0.1666); }
+
+.maze2dView {
+  display: inline-block;
+  border: 2px solid #333;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.player {
+  background-color: red;
+}
+
+.exit {
+  background-color: green;
+}
+
+.info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.gameOver {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
