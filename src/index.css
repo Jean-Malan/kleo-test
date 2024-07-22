@@ -12,7 +12,6 @@ code {
     monospace;
 }
 
-
 .App {
   text-align: center;
   margin: 20px;
@@ -38,4 +37,20 @@ code {
 
 .instructions ul ul {
   list-style-type: circle;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
